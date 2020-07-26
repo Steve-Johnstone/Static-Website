@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <h1 id="header">Continous Deployment through AWS</h1>
+
+    <div>
+        <p>Welcome to my static website, which is deployed using an S3 bucket and updated via github, when new commits are pushed.
+
+            <h3 id="sub">Key steps in this demo:</h3>
+                <ol>
+                    <li>Create a new S3 bucket in AWS. </li>
+                    <li>Deploy a static website to the newly created bucket.</li>
+                    <li>Set up a pipeline for the bucket, linked to a Github account.</li>
+                    <li>Make changes to the website and push them to Github.</li>
+                    <li>The changes are then deployed to the this site.</li>
+                </ol>
+
+                Below are the main stages of a code pipeline:
+        </p>
+    </div>
+
+    <img id="image" src="https://madurad.files.wordpress.com/2018/01/aws-code-pipeline.jpg?w=1618">
+</body>
+</html>

@@ -1,0 +1,30 @@
+#header {
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 35px;
+    background-color: #143691;
+    text-align: center;
+}
+
+#main {
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+
+#image {
+    display: block;
+    margin-top: 25px;
+    width: 100%
+}
+
+#sub {
+    font-size: 23px;
+    text-decoration: underline;
+    color: #143691;
+}
